@@ -6,11 +6,13 @@
 
 ![demo](https://raw.githubusercontent.com/rounak/RJCircularCollectionViewLayout/master/demo.gif)
 
+For a detailed explaination of how the layout works under the hood, visit [raywenderlich.com](http://www.raywenderlich.com/107687/uicollectionview-custom-layout-tutorial-spinning-wheel).
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+This still isn't quite ready for production use, and is meant to be experimental.
 
 ## Installation
 
