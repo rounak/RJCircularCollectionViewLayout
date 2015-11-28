@@ -1,0 +1,6 @@
+framework module RJCircularCollectionViewLayout {
+  umbrella header "RJCircularCollectionViewLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

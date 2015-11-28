@@ -1,0 +1,6 @@
+framework module Pods_RJCircularCollectionViewLayout_Tests {
+  umbrella header "Pods-RJCircularCollectionViewLayout_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

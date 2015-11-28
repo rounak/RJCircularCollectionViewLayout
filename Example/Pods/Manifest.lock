@@ -1,0 +1,14 @@
+PODS:
+  - RJCircularCollectionViewLayout (0.1.0)
+
+DEPENDENCIES:
+  - RJCircularCollectionViewLayout (from `../`)
+
+EXTERNAL SOURCES:
+  RJCircularCollectionViewLayout:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RJCircularCollectionViewLayout: 080a5d9b6fdfa9cb1512e186d8ba59b9d53095e2
+
+COCOAPODS: 0.39.0
