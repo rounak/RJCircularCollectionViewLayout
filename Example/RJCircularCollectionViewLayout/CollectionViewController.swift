@@ -24,7 +24,8 @@ class CollectionViewController: UICollectionViewController {
         // Register cell classes
         collectionView!.registerNib(UINib(nibName: "ImageViewCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
 
-        gradientLayer.colors = [UIColor ( red: 0.1107, green: 0.7848, blue: 0.7686, alpha: 1.0).CGColor, UIColor(red:0.0739, green:0.0848, blue:0.4347, alpha:1.0).CGColor]
+        gradientLayer.colors = [UIColor(red:0.1107, green:0.7848, blue:0.7686, alpha:1.0).CGColor,
+            UIColor(red:0.0739, green:0.0848, blue:0.4347, alpha:1.0).CGColor]
         gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.5)
         gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
         view.layer.insertSublayer(gradientLayer, atIndex: 0)
@@ -43,7 +44,6 @@ class CollectionViewController: UICollectionViewController {
 
     // MARK: UICollectionViewDataSource
 
-
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.images.count
     }
@@ -53,7 +53,5 @@ class CollectionViewController: UICollectionViewController {
         cell.imageView.image = UIImage(named: self.images[indexPath.item])!
         return cell
     }
-
-    // MARK: UICollectionViewDelegate
 
 }
